@@ -20,3 +20,8 @@ variable "lb_name" {
   type        = string
   default     = "app-prod-nlb"
 }
+
+variable "vpc_id" {
+  description = "VPC ID"
+  type        = string
+}
